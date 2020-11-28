@@ -31,6 +31,10 @@ hr {
     max-width: 600px;
     margin: auto;
 }
+.container.container-center.bgblog
+{
+    background-color: rgb(174, 160, 187);
+}
 
 /** links **/
 .link {
@@ -165,4 +169,37 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+
+.bloghead
+{
+    
+    height: 33px;
+    text-align: right;
+    background-color: var(--primary);
+    margin: auto;
+    padding: 1rem;
+}
+.blogimg
+{
+    width:630px;
+    height: 250px;
+    
+    padding: 0.5rem;
+    margin:auto;
+    display: block;
+}
+.bcon
+{
+    width:630px;
+    text-align:center justify;
+    padding:1rem;
+    display:block;
+    margin: auto;
+  
+}
+.bhead
+{
+    color:brown;
 }
