@@ -176,23 +176,23 @@ hr {
 {
     
     height: 33px;
-    text-align: right;
+    text-align: left;
     background-color: var(--primary);
     margin: auto;
     padding: 1rem;
 }
 .blogimg
 {
-    width:630px;
-    height: 250px;
-    
-    padding: 0.5rem;
+    max-width:630px;
+    max-height: 250px;
+    align-items: center;
+    padding: 0.5 rem;
     margin:auto;
     display: block;
 }
 .bcon
 {
-    width:630px;
+    max-width: 700px;
     text-align:center justify;
     padding:1rem;
     display:block;
@@ -200,6 +200,6 @@ hr {
   
 }
 .bhead
-{
+{   text-align: center;
     color:brown;
 }
