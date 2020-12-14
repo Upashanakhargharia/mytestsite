@@ -203,3 +203,9 @@ hr {
 {   text-align: center;
     color:brown;
 }
+.article{
+    display: block;
+}
+.pro1{
+    padding: 2rem;
+}
