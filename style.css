@@ -59,7 +59,8 @@ hr {
 .primary-link {
     background-color: var(--primary);
     border-radius: 0.5rem;
-    color: white
+    color: white;
+    border: 1px solid var(--secondary);
 }
 
 .secondary-link {
